@@ -6,9 +6,9 @@
  */
 class Db {
     private $host     = "localhost";
-    private $user     = "root";
-    private $password = "root";
-    private $database = "test";
+    private $user     = "user";
+    private $password = "password";
+    private $database = "db";
     protected $dbConnection;
 
     function __construct() {
