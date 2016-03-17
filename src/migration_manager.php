@@ -43,7 +43,7 @@ class MigrationManager extends DbHandler{
      */
     private function is_non_migration_file_exist() {
         if(empty($this->_all_migration_files)) {
-            echo 'No migration version file exist in ' . $this->migration_full_path() . "\n";
+            echo 'No migration version file exist in ' . $this->MIGRATIONS_DIR .  " directory.\n";
             exit;
         }
     }
